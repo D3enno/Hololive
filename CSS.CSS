@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Open+Sans&family=Righteous&family=Rubik&display=swap");
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+}
+
+.icon {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+}
+.icon a {
+  color: black;
+}
+.icon a:hover {
+  color: black;
+  text-decoration: none;
+}
+.icon a:active {
+  color: black;
+}
+
+.list {
+  position: fixed;
+  width: 400px;
+  height: 800px;
+  top: 80px;
+  left: 30px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-style: solid;
+  border-color: rgb(52, 201, 254);
+  border-width: 1px;
+  border-radius: 10px;
+  overflow-y: scroll;
+}
+
+.list::-webkit-scrollbar {
+  width: 0;
+}
+
+.title {
+  position: fixed;
+  top: 10px;
+  left: 60px;
+}
+
+.title a:hover {
+  color: black;
+  text-decoration: none;
+}
+.title a:active {
+  color: black;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.8);
+  margin: auto;
+  width: 1010px;
+  padding: 0px 10px 0 10px;
+  margin-top: 80px;
+  border-style: solid;
+  border-color: rgb(52, 201, 254);
+  border-width: 1px;
+  border-radius: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(52, 201, 254);
+}
+a:hover {
+  text-decoration: underline;
+  color: black;
+}
+a:active {
+  color: black;
+}
+body {
+  background-image: url(https://hololive-fc.com/public_html/site_design/fanclub_sites/57/thumbnail_image_path);
+  background-attachment: fixed;
+  background-position: center;
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+}
+
+.start {
+  position: absolute;
+  top: 0px;
+}
+
+@media (max-width: 1800px) {
+  .list {
+    width: 313px;
+  }
+}
+
+@media (max-width: 1600px) {
+  .container {
+    position: absolute;
+    margin-left: 430px;
+    margin-top: 72px;
+  }
+
+  .list {
+    width: 400px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .list {
+    width: 300px;
+  }
+
+  .container {
+    position: absolute;
+    margin-left: 330px;
+    margin-top: 72px;
+    width: 900px;
+  }
+}
+
+@media (max-width: 800px) {
+  .list {
+    position: static;
+    height: auto;
+  }
+
+  .container {
+    position: static;
+    height: auto;
+    margin: auto;
+  }
+
+  .title {
+    position: static;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+}
